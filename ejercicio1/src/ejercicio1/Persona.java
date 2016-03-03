@@ -103,6 +103,8 @@ public class Persona {
     return days/365;
       }
 
+      /* sobreescribir metodo toString*/
+      
     @Override
     public String toString() {
         return "Persona{" + "Id=" + Id + ", nombre=" + nombre + ", apellido=" + apellido + ", estado_civil=" + estado_civil + ", fecha_nacimiento=" + fecha_nacimiento + '}';
