@@ -35,7 +35,7 @@ public class Persona {
     }
     
     
-    
+    /*constructor con los atributos de persona*/
 
     public Persona(int Id, String nombre, String apellido, String estado_civil, Date fecha_nacimiento) {
         this.Id = Id;
@@ -45,6 +45,9 @@ public class Persona {
         this.fecha_nacimiento = fecha_nacimiento;
     }
 
+    
+    
+    /* metodos para modificar */
     public void setId(int Id) {
         this.Id = Id;
     }
@@ -96,7 +99,7 @@ public class Persona {
     
         Date hoy =new Date();
         long days=(hoy.getTime()-this.fecha_nacimiento
-        getTime())/(1000 *60 * *24);
+        getTime())/(1000 *60 *60 * 24);
         
     
     }
