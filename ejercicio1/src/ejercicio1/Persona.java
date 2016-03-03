@@ -98,11 +98,10 @@ public class Persona {
       public long obtenerEdad(){
     
         Date hoy =new Date();
-        long days=(hoy.getTime()-this.fecha_nacimiento
-        getTime())/(1000 *60 *60 * 24);
+        long days=(hoy.getTime()-this.fecha_nacimiento.getTime())/(1000 *60 *60 * 24);
         
-    
-    }
+    return days/365;
+      }
 
     @Override
     public String toString() {
