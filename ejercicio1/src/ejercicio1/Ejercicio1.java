@@ -27,7 +27,25 @@ public class Ejercicio1 {
         persona1.setEstado_civil("casada");
         System.out.println(persona1);
         
-        Empleado empleado1=new Empleado();
+        Cargo cargo1 = new Cargo("Desarrollador","Desarrollador de Software");
+        
+        Empleado emp1=new Empleado();
+        emp1.setCargo(cargo1);
+        emp1.setId(2);
+        emp1.setNombre("yessica");
+        emp1.setApellido("espinosa");
+        emp1.setEstado_civil("casada");
+        emp1.setArp("positiva");
+        emp1.setEps("comeeva");
+        Date fecha_nacimiento1=new Date("18/08/1989");
+        emp1.setFecha_nacimiento(fecha_nacimiento1);
+        
+      System.out.println(emp1.obtenerEdad());
+      System.out.println(emp1);
+        
+      String texto="";
+      String nombre=persona1.mostrarNombre(emp1);
+      System.out.println(nombre);
         
     }
     

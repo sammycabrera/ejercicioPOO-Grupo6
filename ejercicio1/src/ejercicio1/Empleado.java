@@ -28,6 +28,20 @@ public class Empleado  extends Persona{
     public Empleado() {
     }
 
+    public Empleado(String Eps) {
+        this.Eps = Eps;
+    }
+
+    public Empleado(String Eps, String Arp) {
+        this.Eps = Eps;
+        this.Arp = Arp;
+    }
+    
+    
+    
+    
+    
+
     
     
     
