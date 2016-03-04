@@ -9,7 +9,7 @@ package ejercicio1;
  *
  * @author Pc
  */
-public class Empleado {
+public class Empleado  extends Persona{
     
     
     /* la Eps que esta afiliado el empleado*/
@@ -69,8 +69,14 @@ public class Empleado {
 
     @Override
     public String toString() {
-        return "Empleado{" + "Eps=" + Eps + ", Arp=" + Arp + ", cargo=" + cargo + '}';
+        
+ 
+        return "Empleado{" + "id"++"Eps=" + Eps + ", Arp=" + Arp + ", cargo=" + cargo + '}';
     }
+
+   
+    
+    
     
     
     

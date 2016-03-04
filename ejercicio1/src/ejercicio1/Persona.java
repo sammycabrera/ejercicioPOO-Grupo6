@@ -110,8 +110,12 @@ public class Persona {
         return "Persona{" + "Id=" + Id + ", nombre=" + nombre + ", apellido=" + apellido + ", estado_civil=" + estado_civil + ", fecha_nacimiento=" + fecha_nacimiento + '}';
     }
     
+    /* mostrar nombre y apellido de una persona*/
+    public String mostrarNombre(Persona persona1){
+        return nombre+""+apellido;
+        
     
-    
+    }
     
     
 }
