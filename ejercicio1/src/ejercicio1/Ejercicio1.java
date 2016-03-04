@@ -29,8 +29,7 @@ public class Ejercicio1 {
         
         Cargo cargo1 = new Cargo("Desarrollador","Desarrollador de Software");
         
-        Empleado emp1=new Empleado();
-        emp1.setCargo(cargo1);
+        Empleado emp1=new Empleado("comeva","positivo", cargo1);
         emp1.setId(2);
         emp1.setNombre("yessica");
         emp1.setApellido("espinosa");
@@ -39,6 +38,7 @@ public class Ejercicio1 {
         emp1.setEps("comeeva");
         Date fecha_nacimiento1=new Date("18/08/1989");
         emp1.setFecha_nacimiento(fecha_nacimiento1);
+        emp1.setCargo(cargo1);
         
       System.out.println(emp1.obtenerEdad());
       System.out.println(emp1);

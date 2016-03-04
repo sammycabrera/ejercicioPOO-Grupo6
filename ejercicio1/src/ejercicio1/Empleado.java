@@ -28,7 +28,7 @@ public class Empleado  extends Persona{
     public Empleado() {
     }
 
-    public Empleado(String Eps) {
+   /* public Empleado(String Eps) {
         this.Eps = Eps;
     }
 
@@ -86,7 +86,7 @@ public class Empleado  extends Persona{
         
  
         return "Empleado"+ "id"+getId()+"Nombre:"+getNombre()+"Apellido:"+getApellido()+"Fecha de Nacimiento:"+getFecha_nacimiento()+"Estado de civil"+getEstado_civil()+
-                "Eps=" + Eps + ", Arp=" + Arp + ", cargo=" + cargo.getIdCargo();
+                "Eps=" + Eps + ", Arp=" + Arp + ", cargo=" + cargo.getId_cargo();
     }
 
    

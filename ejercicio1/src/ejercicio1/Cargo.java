@@ -3,54 +3,44 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+package ejercicio1;
 
 /**
  *
  * @author Pc
  */
-public class Cargo {
+class Cargo {
     
-    
-    /* El id del cargo */
-    private String IdCargo;
-    
-    
-    /* descripcion del cargo */
+    private String Id_cargo;
     private String descripcion;
 
     public Cargo() {
     }
 
-    public Cargo(String IdCargo, String descripcion) {
-        this.IdCargo = IdCargo;
+    public Cargo(String Id_cargo, String descripcion) {
+        this.Id_cargo = Id_cargo;
         this.descripcion = descripcion;
     }
 
-    public void setIdCargo(String IdCargo) {
-        this.IdCargo = IdCargo;
+    public void setId_cargo(String Id_cargo) {
+        this.Id_cargo = Id_cargo;
     }
 
     public void setDescripcion(String descripcion) {
         this.descripcion = descripcion;
     }
 
-    public String getIdCargo() {
-        return IdCargo;
+    public String getId_cargo() {
+        return Id_cargo;
     }
 
     public String getDescripcion() {
         return descripcion;
     }
-    
-    
-    
-    
-    
-    /* sobreescribir el metodo toString*/
 
     @Override
     public String toString() {
-        return "Cargo{" + "IdCargo=" + IdCargo + ", descripcion=" + descripcion + '}';
+        return "Cargo{" + "Id_cargo=" + Id_cargo + ", descripcion=" + descripcion + '}';
     }
     
     
