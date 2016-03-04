@@ -71,7 +71,8 @@ public class Empleado  extends Persona{
     public String toString() {
         
  
-        return "Empleado{" + "id"++"Eps=" + Eps + ", Arp=" + Arp + ", cargo=" + cargo + '}';
+        return "Empleado"+ "id"+getId()+"Nombre:"+getNombre()+"Apellido:"+getApellido()+"Fecha de Nacimiento:"+getFecha_nacimiento()+"Estado de civil"+getEstado_civil()+
+                "Eps=" + Eps + ", Arp=" + Arp + ", cargo=" + cargo.getIdCargo();
     }
 
    

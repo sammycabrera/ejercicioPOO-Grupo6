@@ -9,7 +9,7 @@ package ejercicio1;
  *
  * @author Pc
  */
-public class Cliente {
+public class Cliente extends Persona{
     
     /* Numero telefonico del cliente */
     private String telefono;
